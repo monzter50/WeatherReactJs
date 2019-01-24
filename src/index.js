@@ -1,8 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
 import './index.css';
-import Home from './views/container/home.js';
+import Calendar from './views/container/calendar.js';
+import 'react-dates/initialize';
 
-
-render(<Home />, document.getElementById('root'));
+render(<Calendar/>, document.getElementById('root'));
 
